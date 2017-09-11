@@ -34,12 +34,10 @@ function Human (name,pet,feed,cool) {
 'use strict'
 this.name = name
 this.feed = function (dog) {
-  if (feed === true)
    return dog.hungry = false
 }
 this.cool = cool
 this.pet = function (dog) {
-  if (pet === true)
   return dog.status="happy"
 }
 }
